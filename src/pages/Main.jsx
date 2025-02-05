@@ -18,8 +18,8 @@ import RecentProducts from "../components/RecentProducts";
 
 const MainBackground = styled.div`
   height: 500px;
-  /* background-image: url(${siri}); */ // 1번 방법
-  background-image: url("/images/yonex.jpg"); // 2번 방법
+  background-image: url(${siri}); // 1번 방법
+  /*background-image: url("/images/yonex.jpg");*/ // 2번 방법
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
