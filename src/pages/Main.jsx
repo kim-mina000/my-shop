@@ -9,7 +9,7 @@ import productSlice, { addMoreProducts, getAllProducts, getMoreProductsAsync, se
 import ProductListItem from "../components/ProductListItem";
 // 리액트(JS)에서 이미지 파일 가져오기
 // 1) src 폴더 안 이미지(상대경로로 import해서 사용)
-import siri from "../images/siri.jpg";
+import siri from "../images/yonex.jpg";
 import { getMoreProducts } from "../api/productAPI";
 import RecentProducts from "../components/RecentProducts";
 // 2) public 폴더 안 이미지 (root 경로로 바로 접근)
